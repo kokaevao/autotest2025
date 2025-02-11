@@ -25,3 +25,12 @@ class CheckBoxPageLocators:
     OUTPUT_RESULT =(By.CSS_SELECTOR, "span[class='text-success']")
 
 
+class RadioButtonLocators:
+
+    YES_RADIOBUTTON = (By.CSS_SELECTOR, "div[class^='custom'] [for='yesRadio']")
+    IMPRESSIVE_RADIOBUTTON = (By.CSS_SELECTOR, "div[class^='custom'] [for='impressiveRadio']")
+    NO_RADIOBUTTON = (By.CSS_SELECTOR, "div[class^='custom'] [for='noRadio']")
+    OUTPUT_RESULT = (By.CSS_SELECTOR, "span[class='text-success']")
+
+
+
